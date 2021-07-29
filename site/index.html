@@ -1,26 +1,44 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8"><!--Permite los caracteres especiales-->
         <meta name="description" content="Esta pagina es para encontrar la posicion de los productos">
-        <meta name="robots" content="index,follow"><!--Par que los navegadores puedan seguir la pagina-->
-        <title>Pagina para busqueda producto</title>
-        <meta name="viewport" content="width=device-width, inictial-scale=1.0"> <!--Con este linea hacemos que sea reponsive-->
+        <!-- <meta name="robots" content="index,follow">Par que los navegadores puedan seguir la pagina -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="./css/bootstrap.css">
+
         <link rel="stylesheet" href="./css/style.css"><!--Con este linea agregamos el estilo css a la pagina-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Con este linea hacemos que sea reponsive -->
+        <title>Pagina para busqueda producto </title>
     </head>
     <body>
         <main>
+            <nav>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Left</button>
+                    <button type="button" class="btn btn-outline-primary">Middle</button>
+                    <button type="button" class="btn btn-outline-primary">Right</button>
+                  </div>
+            </nav>
         
-            <h1>Estante 1</h1>
-            <input list="producto">
-            <datalist id="producto">
-                <option value="Color caramelo"></option>
-                <option value="Esencia arequipe"></option>
-                <option value="Cortador Oso"></option>
-            </datalist>       
+            <h1>Buscar Producto</h1>
+            <div>
+                <input list="producto">
+                    <datalist id="producto">
+                     <option value="Color caramelo"></option>
+                    <option value="Esencia arequipe"></option>
+                    <option value="Cortador Oso"></option>
+                    </datalist>      
+            </div>
+
+            <div><button type="submit" class="btn btn-outline-primary">Buscar</b<utton></div>
+
+
         </main>
 
-
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+        <script src="./js/bootstrap.js"></script>
     </body>
     
 
