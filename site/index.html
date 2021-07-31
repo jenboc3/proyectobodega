@@ -13,17 +13,26 @@
         <title>Pagina para busqueda producto </title>
     </head>
     <body>
-        <main>
-            <nav>
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
-                  </div>
-            </nav>
-        
-            <h1>Buscar Producto</h1>
-            <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-nav navbar-dark bg-dark">
+               <div class="container-fluid">
+                   
+                       <a class="navbar-brand">Bodega el panificador</a>
+                    
+                    
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                        </ul>
+                    
+                    
+               </div>
+              </nav>
+        </header>
+            
+            <div class="container">
+                
                 <input list="producto">
                     <datalist id="producto">
                      <option value="Color caramelo"></option>
@@ -32,7 +41,7 @@
                     </datalist>      
             </div>
 
-            <div><button type="submit" class="btn btn-outline-primary">Buscar</b<utton></div>
+            
 
 
         </main>
